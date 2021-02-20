@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <link rel="icon" href="/favicon.ico"><!-- 32×32 -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>LastTimeIDid</title>
+
+    <script type="text/javascript" src="js/csvAdapter.js"></script>
+    <script type="text/javascript" src="js/dataRenderer.js"></script>
+    <script type="text/javascript">
+      loadAndFormatTaskData('data/task_list.csv', filterByDateThenRender);
+    </script>
+  </head>
+  <body>
+    <h1>Last Time You Did</h1>
+    <div id="task-renderer"></div>
+  </body>
+</html>

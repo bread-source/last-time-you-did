@@ -1,0 +1,4 @@
+task_name,description,last_completed_date,cadence_in_days
+Sample Task with a very long name that I'm typing out to see the issue,This is a sample description of a sample task,2021-01-01,10
+Sample Task 2,This is a sample description of annother sample task,2021-01-01,30
+Sample Task 3,This is a sample description of a third sample task,2021-01-01,100
